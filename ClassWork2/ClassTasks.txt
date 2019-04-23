@@ -1,0 +1,13 @@
+﻿
+19 April 2019 10:00 AM Section A
+======================================
+drop student table from database
+
+run these command 
+
+Enable-Migrations -ContextTypeName UniDBContext
+
+Add-Migration FirstMigrtion
+
+update-database
+========================================
